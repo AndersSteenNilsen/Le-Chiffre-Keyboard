@@ -1,0 +1,8446 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "01cfb480-8d19-4a26-9179-aeddf15b8e6a")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LeChiffre-rescue:Rotary_Encoder_Switch-Device"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Rotary_Encoder_Switch-Device"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Rotary_Encoder_Switch-Device_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid 2.3368 -0.0508)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Rotary_Encoder_Switch-Device_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pro_micro:SuperMini_nRF52840_x_nice_nano"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SuperMini nRF52840 x nice_nano"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "pro_micro:supermini_x_nice_nano"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
+				(at 1.27 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Symbol for an nicekeyboards nice!nano AND supermini"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SuperMini_nRF52840_x_nice_nano_0_0"
+				(pin bidirectional line
+					(at -19.05 13.97 0)
+					(length 2.54)
+					(name "P0.06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 11.43 0)
+					(length 2.54)
+					(name "P0.08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -19.05 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -19.05 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 3.81 0)
+					(length 2.54)
+					(name "P0.17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 1.27 0)
+					(length 2.54)
+					(name "P0.20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -1.27 0)
+					(length 2.54)
+					(name "P0.22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -3.81 0)
+					(length 2.54)
+					(name "P0.24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -6.35 0)
+					(length 2.54)
+					(name "P1.00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -8.89 0)
+					(length 2.54)
+					(name "P0.11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -11.43 0)
+					(length 2.54)
+					(name "P1.04-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -13.97 0)
+					(length 2.54)
+					(name "P1.06-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 8.89 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 3.81 180)
+					(length 2.54)
+					(name "P0.31-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 1.27 180)
+					(length 2.54)
+					(name "P0.29-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -1.27 180)
+					(length 2.54)
+					(name "P0.02-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -3.81 180)
+					(length 2.54)
+					(name "P1.15-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -6.35 180)
+					(length 2.54)
+					(name "P1.13-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -8.89 180)
+					(length 2.54)
+					(name "P1.11-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -13.97 180)
+					(length 2.54)
+					(name "P0.09-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SuperMini_nRF52840_x_nice_nano_1_0"
+				(pin power_out line
+					(at -19.05 16.51 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -19.05 90)
+					(length 2.54)
+					(name "P1.01-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -19.05 90)
+					(length 2.54)
+					(name "P1.02-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -19.05 90)
+					(length 2.54)
+					(name "P1.07-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 16.51 180)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 13.97 180)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 6.35 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -11.43 180)
+					(length 2.54)
+					(name "P0.10-LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SuperMini_nRF52840_x_nice_nano_1_1"
+				(rectangle
+					(start -16.51 19.05)
+					(end 16.51 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 280.67 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f4ddc0-8775-4a54-aa7a-569f18b63e93")
+	)
+	(junction
+		(at 304.8 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0266ea7b-0ad1-427b-9ec2-1fc115877a09")
+	)
+	(junction
+		(at 224.79 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05389a43-951b-45f3-ac72-cc584aec0c3a")
+	)
+	(junction
+		(at 308.61 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "083cb988-f3da-4256-aac4-b8e945c62c9f")
+	)
+	(junction
+		(at 322.58 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a0978d-239b-42a1-ad25-9f10ffc6fa76")
+	)
+	(junction
+		(at 318.77 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "189f0a53-abe1-4616-910e-d60325525a7a")
+	)
+	(junction
+		(at 248.92 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1de3ddb9-edeb-456e-92df-42ef9318d89e")
+	)
+	(junction
+		(at 76.2 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e0a660e-9095-4584-857d-d68deff8c707")
+	)
+	(junction
+		(at 308.61 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2509410d-dc82-4ae6-aef8-cf992551eae4")
+	)
+	(junction
+		(at 266.7 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d3fbb71-5eca-4f17-89d7-7a1f8ce9bd5c")
+	)
+	(junction
+		(at 290.83 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d6d61b6-7cd3-4fc1-a4af-97fe66864c8b")
+	)
+	(junction
+		(at 238.76 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe1ae5d-724b-4364-9cb0-c308f760ea7b")
+	)
+	(junction
+		(at 294.64 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30bc225a-08ec-4e2b-a877-e96e64cab1fc")
+	)
+	(junction
+		(at 262.89 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32474bc4-c217-4590-ae9e-a61500022ffc")
+	)
+	(junction
+		(at 276.86 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35378ab1-77ca-441e-bd26-f56dca17c259")
+	)
+	(junction
+		(at 276.86 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ab7d4e-2802-4e87-a44f-e6ea6a722451")
+	)
+	(junction
+		(at 224.79 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c78267b-2362-476e-8e03-7f8b6683bf81")
+	)
+	(junction
+		(at 238.76 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d434471-f8ec-4563-913f-5fa1a957e1cf")
+	)
+	(junction
+		(at 252.73 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41b8ada0-c5ad-409f-80cd-f333d1be6d52")
+	)
+	(junction
+		(at 308.61 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "506988a8-3b50-4fb7-a47a-8500cf01e092")
+	)
+	(junction
+		(at 294.64 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff65c7a-b6e4-4fce-91e7-20c49d4fd59a")
+	)
+	(junction
+		(at 336.55 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ad58244-e53b-46c6-b943-646eff6c80c3")
+	)
+	(junction
+		(at 266.7 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6da1f39a-6cd8-43fa-8870-172c6e7171c3")
+	)
+	(junction
+		(at 332.74 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7156dd0f-cda6-4acd-bcad-1b80638452a6")
+	)
+	(junction
+		(at 332.74 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "752ff134-2016-4c29-86c6-64a0dd52b022")
+	)
+	(junction
+		(at 224.79 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778632d7-9854-45ae-87af-2324a9b77ff0")
+	)
+	(junction
+		(at 238.76 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4c6132-96f4-4954-bad2-e819790941e4")
+	)
+	(junction
+		(at 262.89 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83128bdc-f050-49a8-814b-837adc4e021a")
+	)
+	(junction
+		(at 280.67 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "891a8850-5e81-4c07-b35d-858a00c1a869")
+	)
+	(junction
+		(at 332.74 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "899566bf-67d6-4fed-a9a2-4eec7e5e44e2")
+	)
+	(junction
+		(at 234.95 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d3169a8-0b78-468e-a47c-1e7d5ed8206c")
+	)
+	(junction
+		(at 76.2 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92133685-fdbc-4f32-98fd-245a17f6fd5b")
+	)
+	(junction
+		(at 280.67 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9220fbe4-5e90-43b8-ab1d-3157f0020874")
+	)
+	(junction
+		(at 252.73 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a58f7549-aba8-440b-825f-8149d76a0739")
+	)
+	(junction
+		(at 346.71 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e78ec8-e097-413c-b94f-177b88e57f72")
+	)
+	(junction
+		(at 336.55 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4b3de99-8908-4aac-b134-7c0d8097e21d")
+	)
+	(junction
+		(at 280.67 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b977bffa-614f-45a2-8bd3-db4c3ee76a80")
+	)
+	(junction
+		(at 290.83 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf9961f5-dce6-452f-83d3-d9915c6e05ae")
+	)
+	(junction
+		(at 322.58 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c77dd955-3d1e-4308-b523-a4c8019ef76d")
+	)
+	(junction
+		(at 248.92 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c979ada4-2efd-4fd6-a539-b4bd1c8a69d9")
+	)
+	(junction
+		(at 336.55 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd8278fe-98bf-4bc7-9a04-26f38bcf1924")
+	)
+	(junction
+		(at 266.7 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce535dff-af37-410d-abb0-a678513a5919")
+	)
+	(junction
+		(at 252.73 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb1430a-c42f-4073-b2d4-fb3eb09bed94")
+	)
+	(junction
+		(at 304.8 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d31399af-946a-4ad2-ad93-88aba12c47f6")
+	)
+	(junction
+		(at 346.71 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d593fd42-d524-41dc-9515-70e0e30c894c")
+	)
+	(junction
+		(at 360.68 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8348569-9df4-4e0d-a23d-7d1cb78310f5")
+	)
+	(junction
+		(at 360.68 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db39e267-4f03-46bf-9bc5-18acbac6d2bd")
+	)
+	(junction
+		(at 294.64 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc51b701-6c79-4d6c-9ac7-1514b77ef2b2")
+	)
+	(junction
+		(at 304.8 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e59d9639-4be9-4d5b-91a1-18d01967b26e")
+	)
+	(junction
+		(at 346.71 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6fd3798-4aeb-4174-88ae-c6086670b667")
+	)
+	(junction
+		(at 322.58 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8846830-b16c-4927-9fbf-1f75b7e09def")
+	)
+	(junction
+		(at 294.64 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eadb6fc6-69d6-4235-b2d5-ad316af1ff75")
+	)
+	(junction
+		(at 234.95 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9d81ce-8fd5-4bb3-bdeb-3f86b68388a2")
+	)
+	(junction
+		(at 266.7 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec1c3b91-45a9-4a07-ad8c-a021889fb69c")
+	)
+	(junction
+		(at 308.61 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecd5c252-44f2-4f4e-b101-1712c20d4b61")
+	)
+	(junction
+		(at 318.77 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f142b659-11fd-44a9-9a34-68804a002c2d")
+	)
+	(junction
+		(at 290.83 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f61dd7da-1984-4a7f-9d21-2babd7b5f87e")
+	)
+	(junction
+		(at 262.89 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa0a2669-c336-453e-8a5b-6373c670b52d")
+	)
+	(wire
+		(pts
+			(xy 369.57 196.85) (xy 361.95 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02882109-2a2e-4308-b78b-2cd75b58ee91")
+	)
+	(wire
+		(pts
+			(xy 290.83 180.34) (xy 290.83 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04943196-afc2-4716-bb31-d57bc03b40b1")
+	)
+	(wire
+		(pts
+			(xy 308.61 149.86) (xy 322.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1e2bbe-f706-4ba3-a7bd-200c63f0eb81")
+	)
+	(wire
+		(pts
+			(xy 294.64 187.96) (xy 308.61 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101791f5-c663-497a-8e42-312b9302d79e")
+	)
+	(wire
+		(pts
+			(xy 224.79 149.86) (xy 238.76 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ff0bc5-98d1-4dd2-a81c-d81c09a1b70c")
+	)
+	(wire
+		(pts
+			(xy 308.61 168.91) (xy 322.58 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f3ecc1-7b12-4414-acad-d37fb6a5cc9c")
+	)
+	(wire
+		(pts
+			(xy 318.77 190.5) (xy 332.74 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1637c77e-3edf-42e8-bf10-6a2c8ff650af")
+	)
+	(wire
+		(pts
+			(xy 262.89 161.29) (xy 262.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da31c57-4b19-42d5-8976-fade5c89240f")
+	)
+	(wire
+		(pts
+			(xy 290.83 142.24) (xy 290.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e77aa48-1a26-4bc3-bf5f-94bf6f4f8f11")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 76.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb48bf2-7920-4809-a0dd-ef89b6efa747")
+	)
+	(wire
+		(pts
+			(xy 219.71 187.96) (xy 224.79 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2214f8fd-1e7f-4b7d-8a5f-aaf0328ebdda")
+	)
+	(wire
+		(pts
+			(xy 276.86 180.34) (xy 276.86 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d03968-04c0-473f-8ec4-4c5a75342404")
+	)
+	(wire
+		(pts
+			(xy 294.64 168.91) (xy 308.61 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd5ffb6-e1a8-4219-88c0-67b7a58938fe")
+	)
+	(wire
+		(pts
+			(xy 219.71 149.86) (xy 224.79 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc766a1-8679-4179-b325-43a77c906de3")
+	)
+	(wire
+		(pts
+			(xy 238.76 149.86) (xy 252.73 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33834bec-54b6-4e38-9f80-57626ab1cd85")
+	)
+	(wire
+		(pts
+			(xy 294.64 149.86) (xy 308.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35112cc1-8abe-4240-bdba-2f5d3c35edbc")
+	)
+	(wire
+		(pts
+			(xy 266.7 187.96) (xy 280.67 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3686b0a6-2c9e-474f-9f53-ba7ffc253431")
+	)
+	(wire
+		(pts
+			(xy 248.92 142.24) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374ba737-ff3c-4ccf-98d5-dce7a45b3eaa")
+	)
+	(wire
+		(pts
+			(xy 341.63 207.01) (xy 308.61 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39de4936-96c5-4e42-94a1-4ca4caba39b7")
+	)
+	(wire
+		(pts
+			(xy 318.77 142.24) (xy 318.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b073011-0009-4545-85d1-b67d4be8d074")
+	)
+	(wire
+		(pts
+			(xy 332.74 161.29) (xy 332.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b22747e-ec97-4e71-8f47-5f4fe92c685b")
+	)
+	(wire
+		(pts
+			(xy 234.95 142.24) (xy 234.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cffa8d4-d8a2-41db-ba2c-35d24e72ea1f")
+	)
+	(wire
+		(pts
+			(xy 318.77 199.39) (xy 318.77 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eee77ff-c39e-4f6a-9da6-d261fd8b27c9")
+	)
+	(wire
+		(pts
+			(xy 252.73 168.91) (xy 266.7 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478e1507-1f41-4542-9d85-d0169be2ac5c")
+	)
+	(wire
+		(pts
+			(xy 332.74 161.29) (xy 332.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b392638-0b02-4051-8e80-76e380c651ba")
+	)
+	(wire
+		(pts
+			(xy 252.73 187.96) (xy 266.7 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f465348-fb29-4a5b-baa6-be1332720528")
+	)
+	(wire
+		(pts
+			(xy 224.79 168.91) (xy 238.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6c9030-1a98-468f-8fc5-d85c563f0e5c")
+	)
+	(wire
+		(pts
+			(xy 238.76 187.96) (xy 252.73 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a91cf6-794f-4bbd-81b7-9f2e34c0208e")
+	)
+	(wire
+		(pts
+			(xy 280.67 168.91) (xy 294.64 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d237a7-8461-41ae-81b2-ffe81c868341")
+	)
+	(wire
+		(pts
+			(xy 336.55 168.91) (xy 350.52 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d82f1e-a44f-4945-99c4-8172343b4603")
+	)
+	(wire
+		(pts
+			(xy 234.95 161.29) (xy 234.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e3a4b3-858d-4e61-ad19-3d0e05edf1d3")
+	)
+	(wire
+		(pts
+			(xy 88.9 156.21) (xy 76.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ce5d21-fd45-47ac-804a-a1084ed8e0d2")
+	)
+	(wire
+		(pts
+			(xy 252.73 149.86) (xy 266.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e72ec4d-e432-49b5-aaa2-e18eddaf5151")
+	)
+	(wire
+		(pts
+			(xy 318.77 180.34) (xy 318.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e96195a-31ff-4f35-ba11-549a06f6f227")
+	)
+	(wire
+		(pts
+			(xy 262.89 180.34) (xy 262.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a83453-9a97-4eb2-a8ec-7d66f3c00b75")
+	)
+	(bus
+		(pts
+			(xy 356.87 198.12) (xy 354.33 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66078d3b-4364-43c6-a763-ee0bd8d11e82")
+	)
+	(wire
+		(pts
+			(xy 346.71 180.34) (xy 346.71 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d3d106-7a90-42e8-903c-c0a415fe9874")
+	)
+	(wire
+		(pts
+			(xy 276.86 161.29) (xy 276.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670c9a12-ac2c-4ee1-b914-84ba5b05b114")
+	)
+	(wire
+		(pts
+			(xy 294.64 207.01) (xy 308.61 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f64a2be-6a78-4be5-9dea-eaf65fcd84c9")
+	)
+	(wire
+		(pts
+			(xy 266.7 149.86) (xy 280.67 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703da5ff-539f-4d9e-9aa9-597712e09fb4")
+	)
+	(wire
+		(pts
+			(xy 262.89 142.24) (xy 262.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bf0199-8d66-4571-a37f-c5398367318b")
+	)
+	(wire
+		(pts
+			(xy 234.95 180.34) (xy 234.95 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a93d967-0f8d-418a-bb15-89975997411e")
+	)
+	(wire
+		(pts
+			(xy 238.76 168.91) (xy 252.73 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfe5e2d-9431-4372-91b5-751f2eb4a884")
+	)
+	(wire
+		(pts
+			(xy 219.71 168.91) (xy 224.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ea85ca-10ee-46be-9496-8f3dcd10d2da")
+	)
+	(wire
+		(pts
+			(xy 322.58 168.91) (xy 336.55 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ecfb5c-2f42-4f4b-9043-4b9ae7c1baa8")
+	)
+	(wire
+		(pts
+			(xy 248.92 180.34) (xy 248.92 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cd4060-e52f-477d-af60-85cd6e13a5a0")
+	)
+	(wire
+		(pts
+			(xy 341.63 199.39) (xy 346.71 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc096a7-dcfd-420f-8361-5fe4bcece444")
+	)
+	(wire
+		(pts
+			(xy 332.74 190.5) (xy 332.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c22a693-0d26-4094-9554-9829db33e87e")
+	)
+	(wire
+		(pts
+			(xy 290.83 180.34) (xy 290.83 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5774d4-2ac6-46bc-809a-224082ba06a6")
+	)
+	(wire
+		(pts
+			(xy 360.68 142.24) (xy 360.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29f2938-9c25-4ed0-9ed0-97c4d2231f71")
+	)
+	(wire
+		(pts
+			(xy 360.68 161.29) (xy 360.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3775853-ff2c-4297-bde7-39077cb36530")
+	)
+	(wire
+		(pts
+			(xy 336.55 187.96) (xy 350.52 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b9ee70-da89-438d-ae50-56b81297ab8c")
+	)
+	(bus
+		(pts
+			(xy 356.87 196.85) (xy 356.87 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fca838-0543-4643-a702-f1cac82ec08e")
+	)
+	(wire
+		(pts
+			(xy 266.7 207.01) (xy 280.67 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a86c78-8fcd-4bc4-b742-c1842246fe0b")
+	)
+	(wire
+		(pts
+			(xy 304.8 180.34) (xy 304.8 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb7dfd9-5eb4-412b-a349-091cf1d1b7e0")
+	)
+	(wire
+		(pts
+			(xy 304.8 142.24) (xy 304.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06d0458-90e2-4dc2-b69d-418016f68f00")
+	)
+	(wire
+		(pts
+			(xy 332.74 132.08) (xy 332.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b288b637-066b-4a2c-8fb5-fbefa0f17926")
+	)
+	(wire
+		(pts
+			(xy 346.71 142.24) (xy 346.71 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3747c81-e1e7-4255-98c9-d6e14a66bcc5")
+	)
+	(wire
+		(pts
+			(xy 318.77 161.29) (xy 318.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3aec614-6945-40f6-bcb0-a2e93231f483")
+	)
+	(wire
+		(pts
+			(xy 266.7 168.91) (xy 280.67 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45980cb-42ff-45ca-a43c-4f1a43e63597")
+	)
+	(wire
+		(pts
+			(xy 224.79 187.96) (xy 238.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67aa84a-9897-4e9e-9219-e42dcb62d0ed")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 143.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b715e3e4-e837-48f6-9419-1cdb097ba8b4")
+	)
+	(wire
+		(pts
+			(xy 248.92 161.29) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba387fcf-af61-446c-8161-67563617adc7")
+	)
+	(wire
+		(pts
+			(xy 360.68 161.29) (xy 360.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc16080f-73dc-47f9-995f-7b9bbc18b5ba")
+	)
+	(wire
+		(pts
+			(xy 304.8 161.29) (xy 304.8 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc39945-6926-4958-9645-bc7039780fe3")
+	)
+	(wire
+		(pts
+			(xy 276.86 142.24) (xy 276.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a1da08-fa1f-46a0-ac92-9f536dcc78a3")
+	)
+	(wire
+		(pts
+			(xy 76.2 156.21) (xy 76.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8106bae-1508-4077-93d7-3fc6829e18f4")
+	)
+	(wire
+		(pts
+			(xy 88.9 146.05) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87ee391-5ea6-46b2-b82f-876f7a4228de")
+	)
+	(wire
+		(pts
+			(xy 76.2 153.67) (xy 76.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b18c4d-41bf-4574-8732-ebf4d7e382ff")
+	)
+	(wire
+		(pts
+			(xy 322.58 187.96) (xy 336.55 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e00a44-ce4d-4978-b0f5-d242d04fbce7")
+	)
+	(wire
+		(pts
+			(xy 346.71 142.24) (xy 346.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccad1483-75c0-4f1a-a412-f8e34cc60ba7")
+	)
+	(wire
+		(pts
+			(xy 290.83 161.29) (xy 290.83 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6751934-6308-4361-b422-7f63f7b783c8")
+	)
+	(wire
+		(pts
+			(xy 88.9 153.67) (xy 76.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6a0ce4-3e49-486b-9c6c-1126731da77e")
+	)
+	(wire
+		(pts
+			(xy 308.61 187.96) (xy 322.58 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bb6c97-c805-42c3-b9f6-a847ecd87d78")
+	)
+	(wire
+		(pts
+			(xy 304.8 161.29) (xy 304.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38935fb-2a18-4f85-baff-a559a07122f7")
+	)
+	(wire
+		(pts
+			(xy 262.89 195.58) (xy 276.86 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eded146a-f0ef-44bb-8fa3-7b938687212e")
+	)
+	(wire
+		(pts
+			(xy 219.71 207.01) (xy 266.7 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb376b9-b6d9-4a5e-8b0a-54750cad69a8")
+	)
+	(wire
+		(pts
+			(xy 262.89 180.34) (xy 262.89 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8c5de5-9a29-4125-890f-190b78cb39be")
+	)
+	(wire
+		(pts
+			(xy 336.55 149.86) (xy 350.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05376a8-5a8d-4415-9a4d-172febcb703c")
+	)
+	(wire
+		(pts
+			(xy 280.67 207.01) (xy 294.64 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60fe02b-1161-4e81-83a0-252be3575afd")
+	)
+	(wire
+		(pts
+			(xy 280.67 149.86) (xy 294.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f9173c-7657-4aaf-910a-686ea8a5fb82")
+	)
+	(wire
+		(pts
+			(xy 280.67 187.96) (xy 294.64 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ef6dcd-75df-4a9b-875b-62c409b352f6")
+	)
+	(wire
+		(pts
+			(xy 322.58 149.86) (xy 336.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa75846b-be1f-4df1-96b3-4aa96bdd041c")
+	)
+	(wire
+		(pts
+			(xy 276.86 195.58) (xy 276.86 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7bc682-308f-48c9-8dd1-626fbd1847f4")
+	)
+	(wire
+		(pts
+			(xy 346.71 180.34) (xy 346.71 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd435185-b5a6-4c51-97e4-6584fba00f7e")
+	)
+	(global_label "col9"
+		(shape input)
+		(at 127 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0933da4d-c5fa-4585-8637-b1d3aab876bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col6"
+		(shape input)
+		(at 318.77 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bb2f16d-e0ab-4b0e-8246-1059a5e4f395")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 318.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EncA"
+		(shape input)
+		(at 88.9 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "152b8dc6-bf3f-4ddf-88ab-36abbd7c52a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 88.9 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1657d007-15c3-4bb0-821d-54c9735fb21d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 219.71 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18883b62-c39d-4ba0-923b-9da69008b886")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col8"
+		(shape input)
+		(at 127 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23e24743-c699-412a-b94d-dddde723b9e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 304.8 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "299b8c62-11eb-45a2-a623-9af7bf46be96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 219.71 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31550da6-ed13-4772-aece-8c234bdccd8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 262.89 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3364cf43-c26a-41ec-b551-293b073bea39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 248.92 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47045a61-133e-4b3a-8e14-e0dbe8a4994f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 127 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e762338-336e-4146-bfa0-6a1f3f03ac2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 88.9 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f349532-b365-410e-93ad-14708a321f61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 276.86 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "644103a1-9f78-421c-a50d-a8c982fcdeba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EncB"
+		(shape input)
+		(at 88.9 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6452f9ae-b4ff-4e62-b466-e74b0d6ddf5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 88.9 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a006103-f6aa-4189-9744-bd59e1dfb922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 219.71 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71d0169b-e6f2-4170-97ac-4c3591c721db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 127 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f8d6082-9b23-4ae3-933c-21ff89d9ee83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 219.71 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fd8ea58-8513-46ea-bdda-73981f3233ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col7"
+		(shape input)
+		(at 127 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "922aab4b-2414-4f9b-a7b1-cc53fa2d45fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col6"
+		(shape input)
+		(at 127 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ae4c42d-08be-4e8a-8dc9-3d4c7077d0ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 290.83 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0932442-377c-4c2a-af76-381fe33189b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 88.9 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba837705-69a8-4989-af67-7bfeabedb5f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 234.95 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc60e4cf-8ceb-40bf-b14b-783b37c5650f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col9"
+		(shape input)
+		(at 360.68 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6c62387-12a0-4496-8159-210da1f799fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col7"
+		(shape input)
+		(at 332.74 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c744c3dd-0ba3-466e-977f-c6d5674d2faa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EncA"
+		(shape input)
+		(at 361.95 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c87354ae-b55f-46cd-8e6f-b362e050a915")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 127 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c99380fa-0169-4cb9-9f72-5191b27533e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 127 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1c46db1-44b0-4393-bc9e-fe0bd64653a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EncB"
+		(shape input)
+		(at 361.95 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d44ab336-b89e-43b0-8917-9ac4ee7d8411")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 88.9 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9ebd986-188a-404b-8470-94bdf0b0ebb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col8"
+		(shape input)
+		(at 346.71 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "daecb621-9ca9-4569-b4fb-08d4b0c2a89d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 346.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 88.9 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6b02846-e5f9-42a0-a3a9-7854b4b2c6c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 327.66 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e4d118c")
+		(property "Reference" "SW28"
+			(at 327.66 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 327.66 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 327.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12e72d3e-596c-4838-a96f-f8998cf4b2f7")
+		)
+		(pin "2"
+			(uuid "5923be4b-6b3c-470a-a80c-4fc507184830")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 322.58 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e4e13f1")
+		(property "Reference" "D27"
+			(at 324.5866 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 324.5866 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 318.135 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 322.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e73971a6-9a89-4407-b7d2-997891070367")
+		)
+		(pin "2"
+			(uuid "fb6e7b10-86bf-45e6-8e6d-965d9909dc75")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 299.72 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e51ce66")
+		(property "Reference" "SW22"
+			(at 299.72 192.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 299.72 194.4624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-2U-StabFlip"
+			(at 299.72 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ad7a458-3005-4957-9d13-16a2445e2f7b")
+		)
+		(pin "2"
+			(uuid "0b3924dc-b251-431b-b8eb-238b33095bc1")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 285.75 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e51f24f")
+		(property "Reference" "SW18"
+			(at 285.75 192.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 285.75 194.4624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-2U-StabFlip"
+			(at 285.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad56a82c-4e73-45f5-be42-e30a63ec4f45")
+		)
+		(pin "2"
+			(uuid "242b8ea1-7dc6-4207-9047-095f75a8786d")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 294.64 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e52074c")
+		(property "Reference" "D21"
+			(at 296.6466 202.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 296.6466 204.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 290.195 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 294.64 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97809716-bafe-44dc-bedf-ccae7bb0dcb5")
+		)
+		(pin "2"
+			(uuid "244075f6-3160-4a09-96c2-2a4116fc1fe7")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 280.67 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e5235af")
+		(property "Reference" "D17"
+			(at 282.6766 202.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 282.6766 204.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 276.225 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 280.67 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "371cceaa-aa57-4340-b59b-aface8aa0391")
+		)
+		(pin "2"
+			(uuid "920a26ba-39ac-4183-855c-e0d6cc479f67")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 355.6 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56532c")
+		(property "Reference" "SW34"
+			(at 355.6 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 355.6 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 355.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "918351f6-3a4a-4302-a370-1a02b102e4e8")
+		)
+		(pin "2"
+			(uuid "7ac0a107-647d-47b1-9fc7-953c6bbcafd9")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 350.52 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e565332")
+		(property "Reference" "D33"
+			(at 352.5266 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 352.5266 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 346.075 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 350.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26069856-0cd7-4bf2-b07f-7b5f0f71e6bc")
+		)
+		(pin "2"
+			(uuid "ebdfb6ca-d092-4e5b-815c-7c3814eb8312")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 341.63 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e566196")
+		(property "Reference" "SW31"
+			(at 341.63 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 341.63 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 341.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68729185-66d3-417f-ad4a-790d2fe47201")
+		)
+		(pin "2"
+			(uuid "c700c2bb-7bd6-47a8-b387-6a8854eedf60")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 336.55 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56619c")
+		(property "Reference" "D30"
+			(at 338.5566 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 338.5566 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 332.105 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 336.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cf80b6b-2a90-45b3-af10-9912bfcb1efd")
+		)
+		(pin "2"
+			(uuid "2bc0c1fe-039b-469b-b6dd-a9e92975a380")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 271.78 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e567556")
+		(property "Reference" "SW12"
+			(at 271.78 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 271.78 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 271.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bed3422a-aa54-44a7-ab88-e05bc7df7394")
+		)
+		(pin "2"
+			(uuid "3a9f4bbb-a24e-4bb9-9f53-d99c6b32313d")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 266.7 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56755c")
+		(property "Reference" "D11"
+			(at 268.7066 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 268.7066 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 262.255 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d44b2609-3fbf-46c9-bc7e-cc0de9ec8333")
+		)
+		(pin "2"
+			(uuid "cbf75873-8ca7-4b20-9c3c-25ae03cc543a")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 285.75 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e568d70")
+		(property "Reference" "SW16"
+			(at 285.75 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 285.75 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 285.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99713811-608c-4fe7-a042-0ee60a6d2c12")
+		)
+		(pin "2"
+			(uuid "9d73455b-d2da-4a58-99a6-2771b84f6571")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 280.67 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e568d76")
+		(property "Reference" "D15"
+			(at 282.6766 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 282.6766 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 276.225 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 280.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdae3d8e-c53c-46b2-b564-65b4073d1911")
+		)
+		(pin "2"
+			(uuid "ea5cc30f-74c2-4872-91af-12ad47cf9e80")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 229.87 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56ac3a")
+		(property "Reference" "SW3"
+			(at 229.87 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 229.87 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41a790b8-8c09-403e-b954-1bb8823e4291")
+		)
+		(pin "2"
+			(uuid "a59684e7-9c5b-4454-a812-bca9ea1919db")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 224.79 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56ac40")
+		(property "Reference" "D2"
+			(at 226.7966 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 226.7966 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 220.345 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 224.79 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1199122c-b606-4b67-b07d-8d4d784d6470")
+		)
+		(pin "2"
+			(uuid "12745c05-9c25-4387-b74d-f98338632237")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 257.81 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56c46f")
+		(property "Reference" "SW9"
+			(at 257.81 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 257.81 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 257.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1105e388-ddd1-4c81-9c4b-5cfee9ad9b0e")
+		)
+		(pin "2"
+			(uuid "45ede92d-045c-4ae7-b3da-2d64b40f8ea6")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 252.73 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56c475")
+		(property "Reference" "D8"
+			(at 254.7366 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 254.7366 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 248.285 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 252.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2794de82-8e29-49dc-90cd-2cf218c40e3b")
+		)
+		(pin "2"
+			(uuid "82579bc6-ba42-43a8-bcc9-49a4aa231232")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 243.84 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56dd0b")
+		(property "Reference" "SW6"
+			(at 243.84 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 243.84 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9349b399-b6b6-46b3-8c60-4b31ba00ef49")
+		)
+		(pin "2"
+			(uuid "06dfd332-ef3c-46ef-b4d2-1b597247d35a")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 238.76 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56dd11")
+		(property "Reference" "D5"
+			(at 240.7666 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 240.7666 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 234.315 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 238.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e1ec8aa-6aa6-43a4-9b7e-b9ff1a26bdd4")
+		)
+		(pin "2"
+			(uuid "f55852de-ed4a-4620-9a3f-66b12912cb5f")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 299.72 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56f765")
+		(property "Reference" "SW20"
+			(at 299.72 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 299.72 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 299.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "986fc175-21c8-440b-a8d6-507f9bf61932")
+		)
+		(pin "2"
+			(uuid "400ce307-109a-4451-99a8-b93d8574a5fb")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 294.64 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e56f76b")
+		(property "Reference" "D19"
+			(at 296.6466 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 296.6466 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 290.195 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 294.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56df2d4c-0e46-44de-a423-c0e75cecf5d0")
+		)
+		(pin "2"
+			(uuid "94280d3f-8288-4a0b-a024-9fe1b41d029c")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 313.69 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e5718e8")
+		(property "Reference" "SW24"
+			(at 313.69 154.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 313.69 156.3624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 313.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4ca4691-b1fc-49dc-8d4a-9d10e327f838")
+		)
+		(pin "2"
+			(uuid "f3c86b5c-1770-456b-8ff4-345ea355194e")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 308.61 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e5718ee")
+		(property "Reference" "D23"
+			(at 310.6166 163.9316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 310.6166 166.243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 304.165 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 308.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fcfbbe8-3487-4a7a-bea6-2a22c6dea7bf")
+		)
+		(pin "2"
+			(uuid "9962a684-6d42-4fa8-903d-30ebd0c2d348")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 299.72 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589ca9")
+		(property "Reference" "SW19"
+			(at 299.72 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 299.72 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 299.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41c14d7c-f0cc-4eff-8f4f-064e420b8c9d")
+		)
+		(pin "2"
+			(uuid "ad4fb0e7-53df-4e5a-9732-e643211b5d9e")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 294.64 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589caf")
+		(property "Reference" "D18"
+			(at 296.6466 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 296.6466 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 290.195 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a68b43d-1415-4ae2-99c2-034d11aa6fd9")
+		)
+		(pin "2"
+			(uuid "25c366f7-e259-406e-b77d-1f5e182eec14")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 257.81 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cb6")
+		(property "Reference" "SW8"
+			(at 257.81 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 257.81 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50ba5370-6863-4687-aae7-ecd019f8a832")
+		)
+		(pin "2"
+			(uuid "b963ed0b-a379-4bb0-94b4-10afb58d4c1b")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 252.73 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cbc")
+		(property "Reference" "D7"
+			(at 254.7366 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 254.7366 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 248.285 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "941e14d5-8fd4-4f02-aeba-8480093a5749")
+		)
+		(pin "2"
+			(uuid "00d1155c-1d75-4588-b7d4-6ff3c1656440")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 327.66 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cc3")
+		(property "Reference" "SW27"
+			(at 327.66 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 327.66 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 327.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02a12684-ddec-4ed2-90a0-4058ed42dbcf")
+		)
+		(pin "2"
+			(uuid "0358977c-5346-46e2-bde5-dc245f7fb819")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 322.58 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cc9")
+		(property "Reference" "D26"
+			(at 324.5866 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 324.5866 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 318.135 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 322.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7fed2d7-8317-4274-87af-869990b8cf74")
+		)
+		(pin "2"
+			(uuid "0df45510-51df-45ad-8376-9f01deab34c4")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 285.75 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cd0")
+		(property "Reference" "SW15"
+			(at 285.75 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 285.75 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 285.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78310978-73a8-4c53-975c-6d448a1cb568")
+		)
+		(pin "2"
+			(uuid "38728604-39d8-4bf5-b1cf-9093827f9ff2")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 280.67 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cd6")
+		(property "Reference" "D14"
+			(at 282.6766 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 282.6766 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 276.225 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 280.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e038e68d-215c-413c-b5d5-a04b323119cf")
+		)
+		(pin "2"
+			(uuid "f8611c3e-41d1-48a6-a943-e0b0ab06f09e")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 355.6 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cdd")
+		(property "Reference" "SW33"
+			(at 355.6 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 355.6 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0550b94d-cdfc-4a27-aa57-ce02ba9ced63")
+		)
+		(pin "2"
+			(uuid "e1cde29a-5e95-4d35-9416-ba8d1f053ca2")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 350.52 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589ce3")
+		(property "Reference" "D32"
+			(at 352.5266 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 352.5266 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 346.075 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 350.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53a5c53b-7a2a-4153-b0df-d00ed33dbd05")
+		)
+		(pin "2"
+			(uuid "a45e0d5a-95a1-44ca-825c-968eb28ecff7")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 271.78 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cea")
+		(property "Reference" "SW11"
+			(at 271.78 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 271.78 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6b0b54d-9dd8-4443-9bfa-2e4939ac2b73")
+		)
+		(pin "2"
+			(uuid "2784ea71-d26e-4f08-a438-1d8f37a7cb49")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 266.7 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cf0")
+		(property "Reference" "D10"
+			(at 268.7066 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 268.7066 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 262.255 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3a8fbfa-eb04-40bb-9536-828e6a0f2342")
+		)
+		(pin "2"
+			(uuid "1215e099-32b5-465d-b364-d1b5186a907b")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 229.87 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cf7")
+		(property "Reference" "SW2"
+			(at 229.87 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 229.87 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cad6bac-d3e9-4fea-874f-aeb591b4196f")
+		)
+		(pin "2"
+			(uuid "b2ce73c9-c962-464b-9c2f-43d00aecb2bf")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 224.79 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589cfd")
+		(property "Reference" "D1"
+			(at 226.7966 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 226.7966 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 220.345 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 224.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70cad3bd-8a5f-4800-93b6-63329a9ad615")
+		)
+		(pin "2"
+			(uuid "ad1a55b8-f6a5-4830-9ea7-858d9bd85bb9")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 243.84 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589d04")
+		(property "Reference" "SW5"
+			(at 243.84 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 243.84 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 243.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72ab9332-3ae5-430b-b24c-2093c4d4c49b")
+		)
+		(pin "2"
+			(uuid "451183e7-f369-42d2-a5c1-977e9a266f30")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 238.76 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589d0a")
+		(property "Reference" "D4"
+			(at 240.7666 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 240.7666 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 234.315 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 238.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35048f7b-ad75-4a2c-b14f-8fd8427963da")
+		)
+		(pin "2"
+			(uuid "3e8a0d99-1e5b-48aa-b8b8-3d48a6ecbc88")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 313.69 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589d11")
+		(property "Reference" "SW23"
+			(at 313.69 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 313.69 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 313.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "584eeea5-d69c-401f-8cff-d9175e5fb61f")
+		)
+		(pin "2"
+			(uuid "ebce37d1-db0c-46fa-b78b-1d9743b53cfe")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 308.61 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589d17")
+		(property "Reference" "D22"
+			(at 310.6166 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 310.6166 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 304.165 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 308.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f38df95a-5d15-44f0-8606-d8fe158dac39")
+		)
+		(pin "2"
+			(uuid "cbaf5cdd-721f-4d34-88c0-a218e37cec47")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 341.63 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589d1e")
+		(property "Reference" "SW30"
+			(at 341.63 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 341.63 137.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 341.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3b25a03-4156-4a91-83d5-f543edd4eba6")
+		)
+		(pin "2"
+			(uuid "a6187c07-3391-4d16-bed8-e41adb15859e")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 336.55 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e589d24")
+		(property "Reference" "D29"
+			(at 338.5566 144.8816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 338.5566 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 332.105 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 336.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37adfdf4-58a8-4088-850b-3e26cf111835")
+		)
+		(pin "2"
+			(uuid "c8c51411-f581-4321-979a-64b5d00e67ca")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 299.72 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e174")
+		(property "Reference" "SW21"
+			(at 299.72 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 299.72 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 299.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "add3ce13-db69-4269-aba9-6f1d9e97086e")
+		)
+		(pin "2"
+			(uuid "71d00dbd-ba61-4e01-9893-a8b298abab79")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 294.64 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e17a")
+		(property "Reference" "D20"
+			(at 296.6466 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 296.6466 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 290.195 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 294.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "778b760e-0493-4319-9897-49a3b4568377")
+		)
+		(pin "2"
+			(uuid "34e7ca85-0630-44b1-bba4-a0c1c221320b")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 355.6 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e181")
+		(property "Reference" "SW35"
+			(at 355.6 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 355.6 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 355.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52ae9d68-9d6f-453f-8b36-a2ac11a42ac7")
+		)
+		(pin "2"
+			(uuid "d977e41c-ee13-41ed-a07c-3ceece5d2cc5")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 350.52 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e187")
+		(property "Reference" "D34"
+			(at 352.5266 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 352.5266 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 346.075 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 350.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9faf6a34-d69a-46bc-9881-ba357734591b")
+		)
+		(pin "2"
+			(uuid "a754b42d-90f6-46e5-a8eb-bfbd79f6a9bd")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 243.84 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e18e")
+		(property "Reference" "SW7"
+			(at 243.84 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 243.84 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 243.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94c7507c-925e-4d9b-a0a6-ff71ea2f08cc")
+		)
+		(pin "2"
+			(uuid "ce24534f-34df-4038-9ede-4646a553049f")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 238.76 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e194")
+		(property "Reference" "D6"
+			(at 240.7666 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 240.7666 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 234.315 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 238.76 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bbd073f-772a-4b92-9325-aea9c272c415")
+		)
+		(pin "2"
+			(uuid "930a8cc1-31e9-4976-9b9c-0ee3acd92630")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 285.75 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e19b")
+		(property "Reference" "SW17"
+			(at 285.75 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 285.75 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac1bfa6f-5590-4734-a418-92515a79f1cc")
+		)
+		(pin "2"
+			(uuid "4b639aa5-1703-497d-8bd4-60a1e0b485df")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 280.67 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1a1")
+		(property "Reference" "D16"
+			(at 282.6766 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 282.6766 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 276.225 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 280.67 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "579673fb-1792-4fe0-90be-9e6607606118")
+		)
+		(pin "2"
+			(uuid "f34b4c0e-dcc6-4840-9239-8acf6eabc7d6")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 257.81 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1a8")
+		(property "Reference" "SW10"
+			(at 257.81 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 257.81 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 257.81 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9599f9b-f217-4988-83d0-c9bbf0a00828")
+		)
+		(pin "2"
+			(uuid "52cf778b-bf1b-4102-bae8-c228476e9f53")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 252.73 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1ae")
+		(property "Reference" "D9"
+			(at 254.7366 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 254.7366 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 248.285 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 252.73 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71ad1a94-9828-4972-bb24-96df3a3afdb3")
+		)
+		(pin "2"
+			(uuid "2cb9236a-8e8b-454c-9e0a-021d1b8c945c")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 341.63 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1b5")
+		(property "Reference" "SW32"
+			(at 341.63 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 341.63 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 341.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3ae9292-57d0-4582-925b-5076c8ca0625")
+		)
+		(pin "2"
+			(uuid "e019af62-d1d2-47f0-8fab-3aec5e82c750")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 336.55 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1bb")
+		(property "Reference" "D31"
+			(at 338.5566 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 338.5566 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 332.105 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 336.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3daef26f-9ffa-481c-acaf-10ea2d58e3ba")
+		)
+		(pin "2"
+			(uuid "01528850-875b-4bf8-bfd2-c57c6fd6c6bd")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 229.87 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1c2")
+		(property "Reference" "SW4"
+			(at 229.87 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 229.87 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 229.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2ba09a7-c17a-4d4c-a86b-24948f4907b0")
+		)
+		(pin "2"
+			(uuid "9fce981e-ca38-44c1-b1ba-5992960aa461")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 224.79 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1c8")
+		(property "Reference" "D3"
+			(at 226.7966 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 226.7966 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 220.345 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 224.79 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c875b934-9598-4b9b-a799-48dcff3d8e04")
+		)
+		(pin "2"
+			(uuid "42f609c4-090d-4d07-bdcf-b90d9ad8a203")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 313.69 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1cf")
+		(property "Reference" "SW25"
+			(at 313.69 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 313.69 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 313.69 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c46ca6ff-cda9-4fc8-931e-2f4ad6a9b64f")
+		)
+		(pin "2"
+			(uuid "7669c021-b61f-441e-9853-4e428a78ad49")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 308.61 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1d5")
+		(property "Reference" "D24"
+			(at 310.6166 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 310.6166 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 304.165 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 308.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1eb6a53c-f7eb-4861-8231-0b4e3354109d")
+		)
+		(pin "2"
+			(uuid "4d0b062e-8d89-4c6b-aa08-a35d220317b1")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 271.78 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1dc")
+		(property "Reference" "SW13"
+			(at 271.78 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 271.78 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 271.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec70a785-dc34-42b4-8c27-06c59ba18310")
+		)
+		(pin "2"
+			(uuid "c00fc66f-e3d0-4765-ad04-0509dd9b3747")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 266.7 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1e2")
+		(property "Reference" "D12"
+			(at 268.7066 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 268.7066 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 262.255 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 266.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d3c77cb-9805-4845-9098-ea0499afb0ff")
+		)
+		(pin "2"
+			(uuid "db49c40c-f4cc-4ba0-be5d-f820e6629eb9")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 327.66 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1e9")
+		(property "Reference" "SW29"
+			(at 327.66 173.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 327.66 175.4124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 327.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a913e0a-ad02-492b-b4b1-7ee487e70b4f")
+		)
+		(pin "2"
+			(uuid "6f028c47-dc89-4f01-8485-d7fa195ec6c4")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 322.58 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e59e1ef")
+		(property "Reference" "D28"
+			(at 324.5866 182.9816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 324.5866 185.293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 318.135 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 322.58 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b14cfa9-35fd-4458-abd8-32369d35a31c")
+		)
+		(pin "2"
+			(uuid "1373d44e-a333-4e21-bdc4-703e1dd3191f")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 271.78 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e5fed8c")
+		(property "Reference" "SW14"
+			(at 271.78 192.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 271.78 194.4624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 271.78 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11c923d8-e6b2-46eb-bab3-bee3e6d75eab")
+		)
+		(pin "2"
+			(uuid "7293ff5a-e095-4159-915a-89da36737d09")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 266.7 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e5fed92")
+		(property "Reference" "D13"
+			(at 268.7066 202.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 268.7066 204.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 262.255 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 266.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4b94e7a-e323-4741-b2fb-4a9b8b2b9400")
+		)
+		(pin "2"
+			(uuid "f211ac9e-feb7-4849-9656-f8161b5a86a8")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 313.69 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e5feda6")
+		(property "Reference" "SW26"
+			(at 313.69 192.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 313.69 194.4624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:MX-Alps-Choc-1U-NoLED"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45f7a259-6002-4c57-98c8-1a42c19bebe8")
+		)
+		(pin "2"
+			(uuid "f7cfe749-83be-4288-b18c-f80c28649dfe")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 308.61 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e5fedac")
+		(property "Reference" "D25"
+			(at 310.6166 202.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 310.6166 204.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 304.165 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 308.61 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6443155-ea58-4f3b-a1cf-18877854b5e8")
+		)
+		(pin "2"
+			(uuid "a10737e6-7c80-48c2-afbb-ea70920651bc")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 341.63 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e856d42")
+		(property "Reference" "D35"
+			(at 343.6366 202.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 343.6366 204.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD123"
+			(at 341.63 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dee0e04b-e21c-4832-be59-c49c14b59c06")
+		)
+		(pin "2"
+			(uuid "f996eb67-fb01-45fd-aa9a-d93f99a9402e")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LeChiffre-rescue:Rotary_Encoder_Switch-Device")
+		(at 354.33 196.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005eb12670")
+		(property "Reference" "SW36"
+			(at 354.33 187.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Rotary_Encoder_Switch"
+			(at 354.33 189.8396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles"
+			(at 358.14 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "a86a042b-d583-4da7-8acb-cd1c192f23df")
+		)
+		(pin "C"
+			(uuid "d8d74f3c-7493-42a8-b6cd-fd314892b0a1")
+		)
+		(pin "B"
+			(uuid "7bcc05aa-ebba-4f31-acfe-cff0ff71891c")
+		)
+		(pin "S1"
+			(uuid "b307eb33-486f-4087-beca-5227398d873e")
+		)
+		(pin "S2"
+			(uuid "f80f8a1c-5ccb-420d-9790-11d3d0ac8ddb")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 369.57 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005eb4c705")
+		(property "Reference" "#PWR0117"
+			(at 369.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.697 201.2442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "559eacbf-5434-40a1-abef-42840657d626")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dbbee6c-fcd5-4154-b24a-1fe1b2762d36")
+		(property "Reference" "#PWR02"
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.637 155.5242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0e9b6fd-d163-4fbb-b759-3324c0d74522")
+		)
+		(instances
+			(project "LeChiffre"
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pro_micro:SuperMini_nRF52840_x_nice_nano")
+		(at 107.95 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "879c3484-8fef-465a-b82b-6deaaa70319b")
+		(property "Reference" "U1"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SuperMini nRF52840 x nice_nano"
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pro_micro:supermini_x_nice_nano"
+			(at 107.95 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
+			(at 109.22 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for an nicekeyboards nice!nano AND supermini"
+			(at 107.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5c49069f-e02c-4704-b097-cd7b904281f5")
+		)
+		(pin "4"
+			(uuid "73def177-92f7-4add-a62f-32d0f72de321")
+		)
+		(pin "16"
+			(uuid "3ce3a8e1-555a-4e1c-8ac6-73e96c7d57e4")
+		)
+		(pin "19"
+			(uuid "6e04621a-6458-446a-a720-748c83660521")
+		)
+		(pin "8"
+			(uuid "673bbb16-f00d-4eee-a5fc-744b054d3f3c")
+		)
+		(pin "22"
+			(uuid "0359512f-1e2f-4c2d-81a2-fda9c3919206")
+		)
+		(pin "28"
+			(uuid "d3073d21-8c5d-441e-a0a3-6a00d89fdafe")
+		)
+		(pin "15"
+			(uuid "6440eec1-4653-4c57-be67-38fc2e804ced")
+		)
+		(pin "13"
+			(uuid "8c5e6a7c-3519-456a-85f7-469f11e0d12d")
+		)
+		(pin "26"
+			(uuid "5507c7f3-9c9d-46f6-89ec-e833e94ffcb1")
+		)
+		(pin "29"
+			(uuid "b033f519-2cac-4961-902b-db96cc4ab40d")
+		)
+		(pin "23"
+			(uuid "5229a100-3475-4563-83e4-892b3372aac2")
+		)
+		(pin "12"
+			(uuid "203fbc08-ff94-4a7c-984b-122083ca484a")
+		)
+		(pin "20"
+			(uuid "8e056189-33fc-49a8-9e76-5b8a8c26fcf2")
+		)
+		(pin "9"
+			(uuid "77f288dd-ddfb-4912-892a-2b6371834665")
+		)
+		(pin "21"
+			(uuid "96cdc195-6951-4bd8-9f81-e10a4778280b")
+		)
+		(pin "3"
+			(uuid "5944b390-c373-4086-9f6a-6ec73857fe43")
+		)
+		(pin "11"
+			(uuid "dca5b817-5979-472d-97b1-80b64d1b3b38")
+		)
+		(pin "10"
+			(uuid "49e85a2b-6cf5-467a-bd0a-8a4119fe9227")
+		)
+		(pin "27"
+			(uuid "91796622-b03f-4ddd-887b-181651767444")
+		)
+		(pin "25"
+			(uuid "1f8b9ba7-22c0-44cb-9fbb-aed3feac36b1")
+		)
+		(pin "18"
+			(uuid "50133430-278e-4b90-b92b-7bf237bfc577")
+		)
+		(pin "17"
+			(uuid "29fbd152-d209-4066-9678-574342e4ba0f")
+		)
+		(pin "7"
+			(uuid "1bc1b5a4-323e-4cb6-b565-722b15504bbb")
+		)
+		(pin "2"
+			(uuid "97a0b97c-2213-4bd3-8724-904604658aad")
+		)
+		(pin "1"
+			(uuid "983b186b-75d0-4b41-a3eb-54a517cdf8c4")
+		)
+		(pin "14"
+			(uuid "79917da8-8cec-46ba-b848-1f17a615aa67")
+		)
+		(pin "6"
+			(uuid "2adb3293-88fb-4f37-a7bb-57ea222d00d6")
+		)
+		(pin "24"
+			(uuid "6f140c58-10c2-434a-bb74-109f394c190c")
+		)
+		(instances
+			(project ""
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9660f23c-39ad-4d69-8b01-e15a712d0280")
+		(property "Reference" "#PWR01"
+			(at 76.2 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.327 161.8742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16749404-e1d9-4adb-b47b-cb1358af9558")
+		)
+		(instances
+			(project "LeChiffre"
+				(path "/01cfb480-8d19-4a26-9179-aeddf15b8e6a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
